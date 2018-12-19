@@ -1,8 +1,3 @@
-### Testing task 2 code:
-
-# Carry out dynamic testing on the code below.
-# Correct the errors below that you spotted in task 1.
-
 require_relative('card.rb')
 class CardGame
 
@@ -18,7 +13,7 @@ class CardGame
   def self.highest_card(card1, card2)
     if card1.value == card2.value
       return "Cards are equal"
-    elsif card1.value > card2.value
+    elsif card1.value > card2.value  
       return card1.name
     else
       return card2.name
